@@ -13,22 +13,22 @@ Dự án này bao gồm hai phần chính. Bạn cần chạy cả hai server so
 Đảm bảo bạn đã cài đặt Python (phiên bản 3.x).
 
 ```bash
-# 1. Di chuyển vào thư mục dự án (chứa file manage.py)
+1. Di chuyển vào thư mục dự án (chứa file manage.py)
 cd room-booking-app\Backend\Booking_Backend
 
-# 2. Tạo môi trường ảo
+2. Tạo môi trường ảo
 python -m venv env
 
-# 3. Kích hoạt môi trường ảo
+3. Kích hoạt môi trường ảo
 # Windows:
 .\env\Scripts\activate
 # macOS/Linux:
 source env/bin/activate
 
-# 4. Cài đặt các thư viện cần thiết
+4. Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
 
-# 6. Khởi chạy server backend
+6. Khởi chạy server backend
 python manage.py runserver
 ```
 > [!NOTE]
@@ -43,13 +43,13 @@ python manage.py runserver
 
 ### 2. Frontend (React + Vite)
 ```bash
-# 1. Di chuyển vào thư mục Frontend
+1. Di chuyển vào thư mục Frontend
 cd Frontend\Booking-App
 
-# 2. Cài đặt các gói thư viện (node_modules)
+2. Cài đặt các gói thư viện (node_modules)
 npm install
 
-# 3. Chạy ứng dụng ở chế độ phát triển
+3. Chạy ứng dụng ở chế độ phát triển
 npm run dev
 ```
 > [!NOTE]
