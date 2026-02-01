@@ -31,13 +31,13 @@ pip install -r requirements.txt
 # 6. Khởi chạy server backend
 python manage.py runserver
 
-> [!NOTE]
-> **Backend URL: http://127.0.0.1:8000/
-> [!IMPORTANT]
-> **Admin account:**
-> * username: admin
-> * password: admin123
-> * admin URL: http://127.0.0.1:8000/admin/
+[!NOTE]
+**Backend URL: http://127.0.0.1:8000/
+[!IMPORTANT]
+**Admin account:**
+* username: admin
+* password: admin123
+* admin URL: http://127.0.0.1:8000/admin/
 ```
 ### 2. Frontend (React + Vite)
 ```bash
@@ -50,6 +50,6 @@ npm install
 # 3. Chạy ứng dụng ở chế độ phát triển
 npm run dev
 
-> [!NOTE]
-> **Frontend URL: http://localhost:5173/
+[!NOTE]
+**Frontend URL: http://localhost:5173/
 ```
