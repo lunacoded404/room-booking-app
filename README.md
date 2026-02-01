@@ -34,6 +34,7 @@ python manage.py runserver
 > [!NOTE]
 > **Backend URL: http://127.0.0.1:8000/
 >
+
 > [!IMPORTANT]
 > **Admin account:**
 > * username: admin
