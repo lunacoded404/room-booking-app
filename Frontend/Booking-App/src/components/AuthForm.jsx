@@ -24,7 +24,7 @@ const AuthForm = () => {
 async function handleLogin() {
   console.log("Logging In", formData);
   try {
-    const response = await fetch("http://127.0.0.1:8000/login/", {
+    const response = await fetch("https://arichansts.pythonanywhere.com/login/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -54,7 +54,7 @@ async function handleLogin() {
 async function handleRegister() {
     console.log("Registering", formData);
     try {
-        const response = await fetch("http://127.0.0.1:8000/register/", {
+        const response = await fetch("https://arichansts.pythonanywhere.com/register/", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

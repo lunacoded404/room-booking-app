@@ -12,7 +12,7 @@ const OccupiedDatesDisplay = () => {
       return;
     }
 
-    const baseURL = "http://127.0.0.1:8000";
+    const baseURL = "https://arichansts.pythonanywhere.com";
     async function fetchDates() {
       try {
         const response = await fetch(`${baseURL}/occupied-dates/`, {

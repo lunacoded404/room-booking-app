@@ -12,7 +12,7 @@ const RoomCard = ({ room, selectedDateRange, onBookingSuccess }) => {
 const handleBooking = async (roomId, userId, range) => {
   if (!user) return navigate("/auth");
   
-  const baseURL = "http://127.0.0.1:8000";
+  const baseURL = "https://arichansts.pythonanywhere.com";
   const roomUrl = `${baseURL}/rooms/${roomId}/`;
   const userUrl = `${baseURL}/users/${userId}/`;
 

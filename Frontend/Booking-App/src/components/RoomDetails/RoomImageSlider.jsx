@@ -4,7 +4,7 @@ const RoomImageSlider = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // 1. Khai báo URL của Backend (phải khớp với cổng Backend của bạn)
-  const BASE_URL = "http://127.0.0.1:8000";
+  const BASE_URL = "https://arichansts.pythonanywhere.com";
 
   // Kiểm tra nếu images chưa có dữ liệu hoặc là mảng rỗng
   if (!images || images.length === 0) {

@@ -22,7 +22,7 @@ const BookingComponent = ({ currentUser }) => {
     async function fetchRoomData() {
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/rooms/",
+          "https://arichansts.pythonanywhere.com/rooms/",
           {
             method: "GET",
           }
