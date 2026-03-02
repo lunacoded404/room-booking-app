@@ -4,8 +4,8 @@
 Dự án bao gồm hệ thống quản lý phòng cho Admin và giao diện đặt phòng tiện lợi cho người dùng.
 
 ---
-
-## I. Cách chạy ứng dụng ở local
+## Website (Production): https://room-booking-app-pearl.vercel.app/
+## Cách chạy ứng dụng ở local
 
 Dự án này bao gồm hai phần chính. Bạn cần chạy cả hai server song song để ứng dụng hoạt động hoàn chỉnh.
 
